@@ -10,3 +10,6 @@ profiles.yml
 target/
 dbt_packages/
 logs/
+.env
+**/.env
+*.env
