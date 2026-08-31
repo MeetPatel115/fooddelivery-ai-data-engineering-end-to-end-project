@@ -14,4 +14,4 @@ occupation,
 income_band,
 education,
 family_size
-from {{ ref('stg_users') }}
+from {{ ref('stg_user') }}
