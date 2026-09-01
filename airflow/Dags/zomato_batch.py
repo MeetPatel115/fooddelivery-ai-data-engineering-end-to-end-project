@@ -37,5 +37,14 @@ with DAG(
         bash_command=f"{DBT} build --exclude tag:ai --project-dir {DBT_PROJECT} --profiles-dir {DBT_PROJECT}",
     )
 
+    enrich_reviews = BashOperator(
+        task_id="enrich_reviews",
+        bash_command=f"python /opt/airflow/ai/enrich_reviews.py",
+    )
 
-    reload_raw >> dbt_build_core
+    dbt_build_ai = BashOperator(
+        task_id = "dbt_build_ai",
+        bash_command=f"{DBT} build --select tag:ai --project-dir {DBT_PROJECT} --profiles-dir {DBT_PROJECT}"
+    )
+    
+    reload_raw >> dbt_build_core >> enrich_reviews >> dbt_build_ai
