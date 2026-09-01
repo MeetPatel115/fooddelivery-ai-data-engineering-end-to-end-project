@@ -666,3 +666,7 @@
 {"timestamp":"2026-08-31T22:12:58.820534","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2026-08-31T22:13:29.785616","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2026-08-31T22:14:00.831951","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-08-31T22:14:31.530633","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-08-31T22:15:02.061923","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-08-31T22:15:32.542680","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-08-31T22:16:03.870304","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/zomato_batch.py","logger":"airflow.models.dagbag.DagBag"}
